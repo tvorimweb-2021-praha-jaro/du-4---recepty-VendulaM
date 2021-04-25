@@ -37,3 +37,84 @@ body {
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
+
+:root {
+    --barva-zaklad: #ffffff;
+    --pismo-nadpis: 'Raleway';
+}
+
+
+.recept {
+    color:var(--barva-zaklad);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 0.5px solid var(--barva-zaklad);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.hlavni {
+    min-height: 200px;
+    position: relative;
+    background-image:url(images/salat.jpg);
+        }
+
+.maly {
+    min-height: 90px;
+    position: relative;
+}
+
+.recept-2 {
+    background-image: url(images/chlebicek.jpg);
+}
+
+.recept-3 {
+    background-image: url(images/cizrna.jpg);
+}
+
+.recept-4 {
+    background-image: url(images/tacos.jpg);
+}
+
+.recept-5 {
+    background-image: url(images/burger.jpg);
+}
+
+
+.hlavni h1 {
+    font-family: var(--pismo-nadpis);
+    font-size: 1.75rem;
+}
+
+.maly h1 {
+    font-family: var(--pismo-nadpis);
+    font-size: 1.2rem;
+}
+
+.jidlo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.zarazeni {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.komentare {
+    color:var(--barva-zaklad);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+}
