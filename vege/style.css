@@ -82,12 +82,12 @@ body {
 }
 
 
-.hlavni h1 {
+.hlavni .jidlo {
     font-family: var(--pismo-nadpis);
     font-size: 1.75rem;
 }
 
-.maly h1 {
+.maly .jidlo {
     font-family: var(--pismo-nadpis);
     font-size: 1.2rem;
 }
